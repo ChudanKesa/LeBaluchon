@@ -12,5 +12,5 @@ class MeteoViewController: UIViewController {
     
     // MARK: - Private properties
     
-    private lazy var viewModel = MeteoViewModel()
+    private lazy var viewModel = MeteoViewModel(repository: Meteorepository())
 }

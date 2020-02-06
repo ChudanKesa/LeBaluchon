@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50ACF6E823867EDA00BD7EE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ACF6E723867EDA00BD7EE7 /* AppDelegate.swift */; };
-		50ACF6EA23867EDA00BD7EE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ACF6E923867EDA00BD7EE7 /* ViewController.swift */; };
-		50ACF6ED23867EDA00BD7EE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50ACF6EB23867EDA00BD7EE7 /* Main.storyboard */; };
-		50ACF6EF23867EDA00BD7EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50ACF6EE23867EDA00BD7EE7 /* Assets.xcassets */; };
-		50ACF6F223867EDA00BD7EE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50ACF6F023867EDA00BD7EE7 /* LaunchScreen.storyboard */; };
+		509DBFC123EC1156005BA261 /* ExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509DBFAD23EC1156005BA261 /* ExchangeViewController.swift */; };
+		509DBFC223EC1156005BA261 /* ExchangeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509DBFAE23EC1156005BA261 /* ExchangeViewModel.swift */; };
+		509DBFC323EC1156005BA261 /* TranslationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509DBFB023EC1156005BA261 /* TranslationViewController.swift */; };
+		509DBFC423EC1156005BA261 /* TranslationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509DBFB123EC1156005BA261 /* TranslationViewModel.swift */; };
+		509DBFC523EC1156005BA261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 509DBFB223EC1156005BA261 /* Main.storyboard */; };
+		509DBFC623EC1156005BA261 /* MeteoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509DBFB523EC1156005BA261 /* MeteoViewModel.swift */; };
+		509DBFC723EC1156005BA261 /* MeteoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509DBFB623EC1156005BA261 /* MeteoViewController.swift */; };
+		509DBFC823EC1156005BA261 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509DBFB723EC1156005BA261 /* AppDelegate.swift */; };
+		509DBFCB23EC1156005BA261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 509DBFBB23EC1156005BA261 /* Assets.xcassets */; };
+		509DBFCC23EC1156005BA261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 509DBFBC23EC1156005BA261 /* LaunchScreen.storyboard */; };
+		509DBFCD23EC1156005BA261 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 509DBFBE23EC1156005BA261 /* Info.plist */; };
 		50ACF6FD23867EDA00BD7EE7 /* LeBaluchonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ACF6FC23867EDA00BD7EE7 /* LeBaluchonTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,13 +32,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		509DBFAD23EC1156005BA261 /* ExchangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeViewController.swift; sourceTree = "<group>"; };
+		509DBFAE23EC1156005BA261 /* ExchangeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeViewModel.swift; sourceTree = "<group>"; };
+		509DBFB023EC1156005BA261 /* TranslationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslationViewController.swift; sourceTree = "<group>"; };
+		509DBFB123EC1156005BA261 /* TranslationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslationViewModel.swift; sourceTree = "<group>"; };
+		509DBFB323EC1156005BA261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		509DBFB523EC1156005BA261 /* MeteoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteoViewModel.swift; sourceTree = "<group>"; };
+		509DBFB623EC1156005BA261 /* MeteoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteoViewController.swift; sourceTree = "<group>"; };
+		509DBFB723EC1156005BA261 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		509DBFBB23EC1156005BA261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		509DBFBD23EC1156005BA261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		509DBFBE23EC1156005BA261 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50ACF6E423867EDA00BD7EE7 /* LeBaluchon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeBaluchon.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		50ACF6E723867EDA00BD7EE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50ACF6E923867EDA00BD7EE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		50ACF6EC23867EDA00BD7EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		50ACF6EE23867EDA00BD7EE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		50ACF6F123867EDA00BD7EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		50ACF6F323867EDA00BD7EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50ACF6F823867EDA00BD7EE7 /* LeBaluchonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeBaluchonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50ACF6FC23867EDA00BD7EE7 /* LeBaluchonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeBaluchonTests.swift; sourceTree = "<group>"; };
 		50ACF6FE23867EDA00BD7EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +67,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		509DBFAB23EC1156005BA261 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				509DBFB723EC1156005BA261 /* AppDelegate.swift */,
+				509DBFB223EC1156005BA261 /* Main.storyboard */,
+				509DBFAC23EC1156005BA261 /* Exchange */,
+				509DBFAF23EC1156005BA261 /* Translation */,
+				509DBFB423EC1156005BA261 /* Meteo */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		509DBFAC23EC1156005BA261 /* Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				509DBFAD23EC1156005BA261 /* ExchangeViewController.swift */,
+				509DBFAE23EC1156005BA261 /* ExchangeViewModel.swift */,
+			);
+			path = Exchange;
+			sourceTree = "<group>";
+		};
+		509DBFAF23EC1156005BA261 /* Translation */ = {
+			isa = PBXGroup;
+			children = (
+				509DBFB023EC1156005BA261 /* TranslationViewController.swift */,
+				509DBFB123EC1156005BA261 /* TranslationViewModel.swift */,
+			);
+			path = Translation;
+			sourceTree = "<group>";
+		};
+		509DBFB423EC1156005BA261 /* Meteo */ = {
+			isa = PBXGroup;
+			children = (
+				509DBFB523EC1156005BA261 /* MeteoViewModel.swift */,
+				509DBFB623EC1156005BA261 /* MeteoViewController.swift */,
+			);
+			path = Meteo;
+			sourceTree = "<group>";
+		};
+		509DBFBA23EC1156005BA261 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				509DBFBB23EC1156005BA261 /* Assets.xcassets */,
+				509DBFBC23EC1156005BA261 /* LaunchScreen.storyboard */,
+				509DBFBE23EC1156005BA261 /* Info.plist */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
 		50ACF6DB23867EDA00BD7EE7 = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +137,8 @@
 		50ACF6E623867EDA00BD7EE7 /* LeBaluchon */ = {
 			isa = PBXGroup;
 			children = (
-				50ACF6E723867EDA00BD7EE7 /* AppDelegate.swift */,
-				50ACF6E923867EDA00BD7EE7 /* ViewController.swift */,
-				50ACF6EB23867EDA00BD7EE7 /* Main.storyboard */,
-				50ACF6EE23867EDA00BD7EE7 /* Assets.xcassets */,
-				50ACF6F023867EDA00BD7EE7 /* LaunchScreen.storyboard */,
-				50ACF6F323867EDA00BD7EE7 /* Info.plist */,
+				509DBFAB23EC1156005BA261 /* Sources */,
+				509DBFBA23EC1156005BA261 /* Ressources */,
 			);
 			path = LeBaluchon;
 			sourceTree = "<group>";
@@ -146,6 +202,7 @@
 				TargetAttributes = {
 					50ACF6E323867EDA00BD7EE7 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					50ACF6F723867EDA00BD7EE7 = {
@@ -179,9 +236,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50ACF6F223867EDA00BD7EE7 /* LaunchScreen.storyboard in Resources */,
-				50ACF6EF23867EDA00BD7EE7 /* Assets.xcassets in Resources */,
-				50ACF6ED23867EDA00BD7EE7 /* Main.storyboard in Resources */,
+				509DBFC523EC1156005BA261 /* Main.storyboard in Resources */,
+				509DBFCD23EC1156005BA261 /* Info.plist in Resources */,
+				509DBFCB23EC1156005BA261 /* Assets.xcassets in Resources */,
+				509DBFCC23EC1156005BA261 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,8 +257,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50ACF6EA23867EDA00BD7EE7 /* ViewController.swift in Sources */,
-				50ACF6E823867EDA00BD7EE7 /* AppDelegate.swift in Sources */,
+				509DBFC423EC1156005BA261 /* TranslationViewModel.swift in Sources */,
+				509DBFC123EC1156005BA261 /* ExchangeViewController.swift in Sources */,
+				509DBFC223EC1156005BA261 /* ExchangeViewModel.swift in Sources */,
+				509DBFC323EC1156005BA261 /* TranslationViewController.swift in Sources */,
+				509DBFC823EC1156005BA261 /* AppDelegate.swift in Sources */,
+				509DBFC623EC1156005BA261 /* MeteoViewModel.swift in Sources */,
+				509DBFC723EC1156005BA261 /* MeteoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,18 +286,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		50ACF6EB23867EDA00BD7EE7 /* Main.storyboard */ = {
+		509DBFB223EC1156005BA261 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				50ACF6EC23867EDA00BD7EE7 /* Base */,
+				509DBFB323EC1156005BA261 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		50ACF6F023867EDA00BD7EE7 /* LaunchScreen.storyboard */ = {
+		509DBFBC23EC1156005BA261 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				50ACF6F123867EDA00BD7EE7 /* Base */,
+				509DBFBD23EC1156005BA261 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -353,12 +416,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z7AF9ZQ283;
-				INFOPLIST_FILE = LeBaluchon/Info.plist;
+				INFOPLIST_FILE = LeBaluchon/Ressources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elquerre.LeBaluchon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -368,9 +433,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z7AF9ZQ283;
-				INFOPLIST_FILE = LeBaluchon/Info.plist;
+				INFOPLIST_FILE = LeBaluchon/Ressources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elquerre.LeBaluchon;
 				PRODUCT_NAME = "$(TARGET_NAME)";

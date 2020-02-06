@@ -38,6 +38,12 @@ final class MeteoViewModel {
     }
 }
 
+class Meteorepository: MeteoRepositoryType {
+    func getWeather(callback: ([Weather]) -> Void) {
+        
+    }
+}
+
 protocol MeteoRepositoryType {
     func getWeather(callback: ([Weather]) -> Void)
 }
